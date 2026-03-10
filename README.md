@@ -1,36 +1,15 @@
 
-#include <stdio.h>
+# Smart Calculator
 
-int add(int a,int b)
-{
-return a+b;
-}
+This is my first C project! It performs basic calculations using functions.
+★Literally made just to practice what I learnt★
 
-int substract(int a,int b)
-{
-return a-b;
-}
+## Features
+- Addition
+- Subtraction
+- Square
+- Cube
 
-int square(int a)
-{
-return a*a;
-}
+## How to Use
+- Enter numbers in the program and it prints the result.
 
-int cube(int a)
-{
-return aaa;
-}
-
-int main()
-
-{
-printf("%d\n",add(2,3));
-
-printf("%d\n",substract(2,3));
-
-printf("%d\n",square (2));
-
-printf ("%d\n", cube(2));
-
-return 0;
-}
