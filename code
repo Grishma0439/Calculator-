@@ -1,0 +1,49 @@
+#include <stdio.h>
+
+int add(int a,int b)
+{
+   return a+b;
+}
+
+int substract(int a,int b)
+{
+   return a-b;
+}
+
+int multiply(int a,int b)
+{
+   return a*b;
+}
+
+int divide(int a,int b)
+{
+   return a/b;
+}
+
+int square(int a)
+{
+   return a*a;
+}
+
+int cube(int a)
+{
+   return a*a*a;
+}
+
+int main()
+
+{
+printf("%d\n",add(2,3));
+
+printf("%d\n",substract(2,3));
+
+printf("%d\n",multiply(2,3));
+
+printf("%d\n",divide(6,3)); //program crashes if b=0 (division by 0)...will improve in later projects.
+
+printf("%d\n",square(2));
+
+printf("%d\n",cube(2));
+
+return 0;
+}
